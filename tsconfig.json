@@ -20,5 +20,6 @@
         "noImplicitReturns": false,
         "skipLibCheck": true,
         "baseUrl": "./packages"
-    }
+    },
+    "include": ["**/*"]
 }
