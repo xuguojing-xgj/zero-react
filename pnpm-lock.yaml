@@ -48,6 +48,8 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
+  packages/react: {}
+
 packages:
 
   /@aashutoshrathi/word-wrap@1.2.6:
