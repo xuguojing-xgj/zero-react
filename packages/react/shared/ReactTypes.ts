@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 // 定义类型
 export type Type = any;
 export type Key = any;

@@ -6,6 +6,5 @@
     // },
 
     -   shared
-
         -   package.json 描述
         // "main": "index.js", 不要入口文件 因为 shared 文件中的方法会在其他文件中被引用
