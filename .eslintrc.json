@@ -1,0 +1,38 @@
+{
+    // 运行环境
+    "env": {
+        // 表示是否启用这个环境
+        "browser": true, // browser - 浏览器环境中的全局变量如 window、document 等
+        "es2021": true,
+        "node": true, // node - Node.js 环境中的全局变量如 require、process 等
+        "jest": true
+    },
+    // 扩展规则插件 是否开启
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    // 使用插件配置
+    "plugins": [
+        "@typescript-eslint",
+        "prettier"
+    ],
+    // 规则配置
+    "rules": {
+        // 启用额外规则
+        "prettier/prettier": "error",
+        "no-case-declarations": "off",
+        "no-constant-condition": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/no-var-requires": "off",
+        "no-unused-vars": "off"
+    }
+}
