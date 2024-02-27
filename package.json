@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js, .ts,.jsx,.tsx --fix --quiet ./packages",
+    "lint": "eslint --ext .js,.ts,.jsx,.tsx --fix --quiet ./packages",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
   },
@@ -23,10 +23,5 @@
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
-  },
-    "husky": {
-      "hooks": { 
-        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-      }
-    }
+  }
 }
